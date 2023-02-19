@@ -27,13 +27,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#pakages">Pakages</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Subscribe</a>
+                <a class="nav-link" href="#">About Us</a>
               </li>
             </ul>
           </div>
@@ -111,9 +111,9 @@
       </section>
 
       <!-- Our Pakage -->
-      <section class="container py-5">
+      <section id="pakages" class="container py-5">
         <h1 class="text-center my-3 fs-1 fw-bolder">Our Pakage</h1>
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
           <div class="col">
             <div class="shadow-lg p-5 rounded-5">
               <h1 class="fs-1 fw-bold text-darkblue">$300</h1>
@@ -168,9 +168,132 @@
           </div>
         </div>
       </section>
+
+      <!-- Toasts -->
+      <div>
+        <div class="toast-container position-fixed bottom-0 end-0 p-3">
+          <div id="liveToast" class="toast align-items-center border-0" role="alert" aria-live="assertive" aria-atomic="true" data-bs-autohide="true" data-bs-delay="10000">
+            <div class="d-flex">
+              <div class="toast-body fw-bold"><i class="fa-solid fa-gift text-primary p-2"></i> 20% Off on next booking - Book Now </div>
+              <button type="button" class="btn-close btn-close-dark me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </div>
+
+      <!-- Client Review -->
+      <section class="container py-5">
+        <h1 class="fw-bold text-center py-2">Happy Client Says</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="shadow-lg p-4 text-center rounded-5">
+              <p class="w-75 m-auto">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+              <img class="w-50 h-50 m-auto rounded-circle my-3" src="./images/person 1.png" alt="Person" />
+              <h5 class="fw-bold">Regina Miles </h5>
+              <p class="fw-bold text-secondary">Banker</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow-lg p-4 text-center rounded-5">
+              <p class="w-75 m-auto">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+              <img class="w-50 h-50 m-auto rounded-circle my-3" src="./images/person 2.png" alt="Person" />
+              <h5 class="fw-bold">Jone Drake </h5>
+              <p class="fw-bold text-secondary">Banker</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="shadow-lg p-4 text-center rounded-5">
+              <p class="w-75 m-auto">Slate helps you see how many more days you need to work to reach your financial goal for the month and year.</p>
+              <img class="w-50 h-50 m-auto rounded-circle my-3" src="./images/person 3.png" alt="Person" />
+              <h5 class="fw-bold">Crate Yater </h5>
+              <p class="fw-bold text-secondary">Banker</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Frequently asked questions -->
+      <section class="container py-5">
+        <h1 class="text-center fw-bold my-3">Frequently asked questions</h1>
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+          <div class="col order-2 order-md-1 order-lg-1">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    What’s the difference between event design and event planning?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> How early do we need to start planning an event? </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> What is your refund and cancellation policy? </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseFour"> How do you keep budgets on track? </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col order-1 order-md-2 order-lg-2">
+            <img class="img-fluid" src="./images/people.png" alt="people image" />
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="bg-dark text-white">
+      <div class="container">
+        <div class="row row-cols-2">
+          <div class="col d-flex align-items-center">
+            <p>© 2023 All rights reserved </p>
+          </div>
+          <div class="col my-4 d-flex flex-column align-items-end">
+            <p class="my-2 fw-bold">Get the App </p>
+            <button class="btn btn-outline-light d-flex justify-content-center align-items-center mb-3">
+              <i class="fa-brands fa-apple fs-1 pe-3"></i>
+              <span><small>Download on the</small> <h4>App Store</h4> </span>
+            </button>
+            <button class="btn btn-outline-light d-flex justify-content-center align-items-center">
+              <i class="fa-brands fa-google-play fs-2 pe-3"></i>
+              <span><small>Get it on</small> <h5>Google Play</h5> </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!-- Bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- js -->
+    <script src="./js/main.js"></script>
   </body>
 </html>
