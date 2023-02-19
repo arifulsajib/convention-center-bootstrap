@@ -1,4 +1,4 @@
-document.addEventListener("scroll", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const toastLiveExample = document.getElementById("liveToast");
   const toast = new bootstrap.Toast(toastLiveExample);
 
